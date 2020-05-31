@@ -1,6 +1,6 @@
 import React from "react";
 
-const AdvertAgency = (props) => {
+const Recruiter = (props) => {
     return (
         <div className="container">
             <img src={props.logo} alt="logo" />
@@ -10,8 +10,9 @@ const AdvertAgency = (props) => {
                 <li>{props.new}</li>
                 <li>{props.featured}</li>
             </ul>
-            <h1>{props.position}</h1>
-            <ul>
+            <div><h1>{props.position}</h1></div>
+
+            <ul className="dateContLoc">
                 <li>{props.postedAt}</li>
                 <li>{props.contract}</li>
                 <li>{props.location}</li>
@@ -30,4 +31,4 @@ const AdvertAgency = (props) => {
     )
 }
 
-export default AdvertAgency;
+export default Recruiter;

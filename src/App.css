@@ -1,15 +1,20 @@
 body {
-  background-color: hsl(180, 29%, 50%);
-}
-.headerColor {
   background-color: hsl(180, 52%, 96%);
+}
+.header {
+  background-color: hsl(180, 29%, 50%);
 }
 .container {
   display: flex;
-  border: 5px solid blueviolet;
+  justify-content: space-between;
+  align-items: center;
   font-size: 15px;
   margin-top: 50px;
+  background-color: white;
+  width: 80%;
+  margin-left: 10%;
 }
+
 nav {
   display: flex;
   flex-direction: row;
@@ -26,19 +31,40 @@ h2 {
 }
 h1 {
   font-size: 20px;
-  /* margin-right: 80px; */
   padding-top: 30px;
 }
 .nameNewFeatured {
   display: flex;
   list-style: none;
 }
-img {
-  width: 8rem;
+.image {
+  width: 50px;
+  height: 50px;
 }
 .dateContLoc {
   list-style: none;
   display: flex;
   flex-direction: row;
   padding-top: 30px;
+}
+.bodyContainer {
+  top: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.jobContent {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.imageLogo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+.languages {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
 }

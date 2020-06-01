@@ -1,17 +1,13 @@
 import React from 'react';
 import './App.css';
 import Joblistings from './JobListings';
+import Header from "./Header"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Joblistings />
-
-        <p className="headerColor">
-        </p>
-
-      </header>
+      <Header />
+      <Joblistings />
     </div>
   );
 }
